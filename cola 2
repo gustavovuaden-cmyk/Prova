@@ -1,0 +1,83 @@
+Cola rápida de C
+Estrutura básica
+#include <stdio.h>
+
+int main() {
+
+    // código
+
+    return 0;
+}
+Declarar variáveis
+Inteiro
+int numero;
+Decimal
+float numero;
+Texto curto
+char letra;
+Entrada de dados (scanf)
+Inteiro
+scanf("%d", &numero);
+Decimal
+scanf("%f", &numero);
+
+⚠ IMPORTANTE:
+Sempre usa & no scanf.
+
+Mostrar na tela (printf)
+printf("Ola");
+Mostrar número
+printf("%d", numero);
+Mostrar decimal
+printf("%.2f", media);
+Contas
+soma = a + b;
+sub = a - b;
+mult = a * b;
+div = a / b;
+IF / ELSE
+if(condicao) {
+
+} else {
+
+}
+Exemplos
+Maior de idade
+if(idade >= 18) {
+    printf("Maior");
+} else {
+    printf("Menor");
+}
+Passou
+if(media >= 60) {
+    printf("Aprovado");
+} else {
+    printf("Reprovado");
+}
+Operadores IMPORTANTES
+Operador	Significado
++	soma
+-	subtração
+*	multiplicação
+/	divisão
+%	resto
+==	igual
+!=	diferente
+>	maior
+<	menor
+>=	maior ou igual
+<=	menor ou igual
+Par ou ímpar
+if(numero % 2 == 0)
+
+Se resto for 0 → par.
+
+Repetição
+FOR
+for(int i = 0; i < 10; i++) {
+
+}
+WHILE
+while(x < 10) {
+
+}
