@@ -1,0 +1,58 @@
+Não parece não, Gustavo. Pelo tipo de exercício que você descreveu, a prova provavelmente é mais lógica básica do que programação avançada.
+Se você decorar essa estrutura aqui, já consegue fazer MUITA coisa:
+#include <stdio.h>int main() {    // variáveis    // scanf    // contas    // if/else    return 0;}
+E principalmente isso:
+if(condicao) {} else {}
+Porque quase toda questão vai ser:
+
+
+receber número
+
+
+fazer conta
+
+
+verificar condição
+
+
+mostrar resultado
+
+
+Exemplo:
+“Digite idade e diga se é maior de idade”
+#include <stdio.h>int main() {    int idade;    scanf("%d", &idade);    if(idade >= 18) {        printf("Maior de idade");    } else {        printf("Menor de idade");    }    return 0;}
+Você já entende a lógica disso vendo o código. E isso é o principal.
+Outra coisa:
+professor normalmente NÃO espera código perfeito de quem tá começando. Se:
+
+
+a lógica estiver certa
+
+
+tiver if
+
+
+tiver scanf
+
+
+tiver conta certa
+
+
+já vale bastante ponto.
+Os erros que mais ferram iniciantes são:
+
+
+esquecer ;
+
+
+esquecer & no scanf
+
+
+usar %d errado
+
+
+esquecer {}
+
+
+Mas isso é detalhe de sintaxe.
+Posso te ajudar agora fazendo:
