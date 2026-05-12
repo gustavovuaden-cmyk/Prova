@@ -1,0 +1,102 @@
+Passo a passo pra resolver QUALQUER questão
+1. Ler o que a questão quer
+
+Pergunta:
+
+vai receber número?
+vai fazer conta?
+vai comparar?
+vai repetir?
+2. Criar variáveis
+
+Exemplo:
+2 notas:
+
+float nota1, nota2, media;
+3. Receber os valores
+scanf("%f", &nota1);
+scanf("%f", &nota2);
+4. Fazer a conta
+media = (nota1 + nota2) / 2;
+5. Fazer a condição
+if(media >= 60)
+6. Mostrar resultado
+printf("Aprovado");
+Modelo universal
+
+Quase toda questão pode virar isso:
+
+#include <stdio.h>
+
+int main() {
+
+    // variáveis
+    int a, b;
+
+    // entrada
+    scanf("%d", &a);
+    scanf("%d", &b);
+
+    // lógica
+    if(a > b) {
+        printf("A maior");
+    } else {
+        printf("B maior");
+    }
+
+    return 0;
+}
+Como pensar na hora da prova
+Se a questão falar:
+“calcule”
+
+→ fazer conta
+
+“verifique”
+
+→ usar if
+
+“enquanto”
+
+→ usar while
+
+“repita”
+
+→ usar for ou while
+
+“mostre”
+
+→ usar printf
+
+“leia”
+
+→ usar scanf
+
+Erros que mais fazem perder ponto
+esquecer ;
+
+ERRADO:
+
+int x
+
+CERTO:
+
+int x;
+esquecer & no scanf
+
+ERRADO:
+
+scanf("%d", numero);
+
+CERTO:
+
+scanf("%d", &numero);
+usar = em vez de ==
+
+ERRADO:
+
+if(x = 10)
+
+CERTO:
+
+if(x == 10)
